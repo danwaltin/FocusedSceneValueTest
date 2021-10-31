@@ -12,7 +12,7 @@ struct ContentView: View {
 		NavigationView {
 			Sidebar()
 			
-			NoSelection()
+			Text("Nothing selected")
 		}
 	}
 }
