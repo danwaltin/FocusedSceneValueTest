@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct Sidebar: View {
-	@State private var selectedPlaylist: Playlist?
-
 	var body: some View {
-		List(playlists, selection: $selectedPlaylist) {
-			SidebarItem(playlist: $0)
+		List(things) { thing in
+			NavigationLink(
+				destination: DetailView(thing: thing),
+				label: {
+					Text(thing.name)
+				}
+			)
 		}
 	}
 }

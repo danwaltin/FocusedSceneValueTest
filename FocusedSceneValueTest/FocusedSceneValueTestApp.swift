@@ -14,7 +14,7 @@ struct FocusedSceneValueTestApp: App {
 			ContentView()
 		}
 		.commands {
-			PlaylistCommands()
+			ThingCommands()
 		}
 	}
 }
