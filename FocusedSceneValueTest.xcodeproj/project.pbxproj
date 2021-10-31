@@ -11,6 +11,9 @@
 		370BB0CE272E8E3900D09278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0CD272E8E3900D09278 /* ContentView.swift */; };
 		370BB0D0272E8E3B00D09278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BB0CF272E8E3B00D09278 /* Assets.xcassets */; };
 		370BB0D3272E8E3B00D09278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BB0D2272E8E3B00D09278 /* Preview Assets.xcassets */; };
+		370BB0DB272E901C00D09278 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0DA272E901C00D09278 /* Playlist.swift */; };
+		370BB0DD272E907200D09278 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0DC272E907200D09278 /* Commands.swift */; };
+		370BB0DF272E90BB00D09278 /* FocusedValues+PlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0DE272E90BB00D09278 /* FocusedValues+PlayList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		370BB0CF272E8E3B00D09278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370BB0D2272E8E3B00D09278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		370BB0D4272E8E3B00D09278 /* FocusedSceneValueTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusedSceneValueTest.entitlements; sourceTree = "<group>"; };
+		370BB0DA272E901C00D09278 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		370BB0DC272E907200D09278 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		370BB0DE272E90BB00D09278 /* FocusedValues+PlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusedValues+PlayList.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				370BB0CB272E8E3900D09278 /* FocusedSceneValueTestApp.swift */,
 				370BB0CD272E8E3900D09278 /* ContentView.swift */,
+				370BB0DA272E901C00D09278 /* Playlist.swift */,
+				370BB0DC272E907200D09278 /* Commands.swift */,
+				370BB0DE272E90BB00D09278 /* FocusedValues+PlayList.swift */,
 				370BB0CF272E8E3B00D09278 /* Assets.xcassets */,
 				370BB0D4272E8E3B00D09278 /* FocusedSceneValueTest.entitlements */,
 				370BB0D1272E8E3B00D09278 /* Preview Content */,
@@ -141,6 +150,9 @@
 			files = (
 				370BB0CE272E8E3900D09278 /* ContentView.swift in Sources */,
 				370BB0CC272E8E3900D09278 /* FocusedSceneValueTestApp.swift in Sources */,
+				370BB0DF272E90BB00D09278 /* FocusedValues+PlayList.swift in Sources */,
+				370BB0DB272E901C00D09278 /* Playlist.swift in Sources */,
+				370BB0DD272E907200D09278 /* Commands.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

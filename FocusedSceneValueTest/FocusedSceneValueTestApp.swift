@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct FocusedSceneValueTestApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+		}
+		.commands {
+			PlaylistCommands()
+		}
+	}
 }
