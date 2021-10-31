@@ -46,8 +46,8 @@ struct PlaylistView: View {
 
 	var body: some View {
 		Text(playlist.name)
-		.focusedSceneValue(\.selectedPlaylist, playlist)
-		.navigationTitle(playlist.name)
+			.focusedSceneValue(\.selectedPlaylist, playlist)
+			.navigationTitle(playlist.name)
 	}
 }
 
