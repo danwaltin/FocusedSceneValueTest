@@ -14,7 +14,6 @@
 		370BB0DB272E901C00D09278 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0DA272E901C00D09278 /* Thing.swift */; };
 		370BB0DD272E907200D09278 /* ThingCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0DC272E907200D09278 /* ThingCommands.swift */; };
 		370BB0DF272E90BB00D09278 /* FocusedValues+Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0DE272E90BB00D09278 /* FocusedValues+Thing.swift */; };
-		371D7B6C272EA29C001DBC8C /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371D7B6B272EA29C001DBC8C /* Sidebar.swift */; };
 		371D7B70272EA2DA001DBC8C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371D7B6F272EA2DA001DBC8C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		370BB0DA272E901C00D09278 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		370BB0DC272E907200D09278 /* ThingCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingCommands.swift; sourceTree = "<group>"; };
 		370BB0DE272E90BB00D09278 /* FocusedValues+Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusedValues+Thing.swift"; sourceTree = "<group>"; };
-		371D7B6B272EA29C001DBC8C /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		371D7B6F272EA2DA001DBC8C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				370BB0CD272E8E3900D09278 /* ContentView.swift */,
-				371D7B6B272EA29C001DBC8C /* Sidebar.swift */,
 				371D7B6F272EA2DA001DBC8C /* DetailView.swift */,
 			);
 			path = Views;
@@ -183,7 +180,6 @@
 				371D7B70272EA2DA001DBC8C /* DetailView.swift in Sources */,
 				370BB0DF272E90BB00D09278 /* FocusedValues+Thing.swift in Sources */,
 				370BB0DB272E901C00D09278 /* Thing.swift in Sources */,
-				371D7B6C272EA29C001DBC8C /* Sidebar.swift in Sources */,
 				370BB0DD272E907200D09278 /* ThingCommands.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

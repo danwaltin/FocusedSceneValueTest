@@ -10,7 +10,12 @@ import SwiftUI
 struct ContentView: View {
 	var body: some View {
 		NavigationView {
-			Sidebar()
+			List(things) { thing in
+				NavigationLink(
+					destination: DetailView(thing: thing),
+					label: {Text(thing.name)}
+				)
+			}
 			
 			Text("Nothing selected")
 		}
