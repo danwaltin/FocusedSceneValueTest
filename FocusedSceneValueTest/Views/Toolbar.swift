@@ -10,22 +10,20 @@ import SwiftUI
 struct Toolbar: ToolbarContent {
 	var body: some ToolbarContent {
 		ToolbarItem {
-			LoremIpsumToolbarView()
+			ToolbarView()
 		}
 	}
 }
 
-struct LoremIpsumToolbarView: View {
+struct ToolbarView: View {
 	@State var playStatus = ToolbarState(stateValue: 0)
 
 	var body: some View {
-		HStack {
-			Text("lorem")
-			Text("ipsum")
+		Button("Ada Lovelace") {
+			print("lorem ipsum")
 		}
     }
 }
-
 
 struct ToolbarState {
 	let stateValue: Int
