@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370579232830E93B005CE088 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370579222830E93B005CE088 /* Toolbar.swift */; };
 		370BB0CC272E8E3900D09278 /* FocusedSceneValueTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0CB272E8E3900D09278 /* FocusedSceneValueTestApp.swift */; };
 		370BB0CE272E8E3900D09278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BB0CD272E8E3900D09278 /* ContentView.swift */; };
 		370BB0D0272E8E3B00D09278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BB0CF272E8E3B00D09278 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370579222830E93B005CE088 /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 		370BB0C8272E8E3900D09278 /* FocusedSceneValueTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusedSceneValueTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370BB0CB272E8E3900D09278 /* FocusedSceneValueTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedSceneValueTestApp.swift; sourceTree = "<group>"; };
 		370BB0CD272E8E3900D09278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				370BB0CD272E8E3900D09278 /* ContentView.swift */,
 				371D7B6F272EA2DA001DBC8C /* DetailView.swift */,
+				370579222830E93B005CE088 /* Toolbar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370579232830E93B005CE088 /* Toolbar.swift in Sources */,
 				370BB0CE272E8E3900D09278 /* ContentView.swift in Sources */,
 				370BB0CC272E8E3900D09278 /* FocusedSceneValueTestApp.swift in Sources */,
 				371D7B70272EA2DA001DBC8C /* DetailView.swift in Sources */,

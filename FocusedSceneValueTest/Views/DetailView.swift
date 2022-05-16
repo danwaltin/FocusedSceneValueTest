@@ -12,7 +12,10 @@ struct DetailView: View {
 
 	var body: some View {
 		Text(thing.name)
-			.focusedSceneValue(\.selectedThing, thing)
 			.navigationTitle(thing.name)
+			.toolbar {
+				Toolbar()
+			}
+			.focusedSceneValue(\.selectedThing, thing)
 	}
 }
